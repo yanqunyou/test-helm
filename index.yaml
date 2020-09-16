@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-16T10:57:18.721086356+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 283a3e2ce9cfba021f232f34e31e17e9d46d4babab0fde87e66720b269b1063a
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.1.0.tgz
+    version: 0.1.0
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 0.10.2
+    created: "2020-09-16T10:57:18.725467258+08:00"
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: b923cdd1e5d3b1043cfe2517c053e8ed25d2ba439ade9fcfe840dfe22f1cc1d4
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: jack.zampolin@gmail.com
+      name: jackzampolin
+    - email: mgoodness@gmail.com
+      name: mgoodness
+    - email: chance.zibolski@coreos.com
+      name: chancez
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - nginx-ingress-0.9.5.tgz
+    version: 0.9.5
+generated: "2020-09-16T10:57:18.720197438+08:00"
